@@ -1,4 +1,6 @@
-"""Number guessing game"""
+"""Number guessing game
+From Hello World! Computer Programming for Kids and Beginners by Carter and Warren Sande.
+"""
 
 import random
 
