@@ -25,7 +25,7 @@ From Hello World! Computer Programming for Kids and Beginners"""
 #         print()
 #     print()
 
-Hotdog combinations - to demonstrate permutations
+# Hotdog combinations - to demonstrate permutations
 dog_cal = 140
 bun_cal = 120
 ket_cal = 80
