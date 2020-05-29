@@ -1,10 +1,11 @@
 # Krishan Patel
 # Skier game created to assist with learning python
 # Copyright Warren & Carter Sande, 2013
-# Released under MIT license   https://opensource.org/licenses/mit-license.php
 
-"""Skier game created to assist with learning python
-Copyright Warren & Carter Sande, 2013"""
+"""Chapter 10: Skier
+Hello World! Computer Programming for Kids and Beginners
+Copyright Warren & Carter Sande, 2013
+"""
 
 import os
 import random

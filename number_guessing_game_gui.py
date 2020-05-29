@@ -1,4 +1,6 @@
-"""Number guessing game using a GUI"""
+"""Number guessing game using a GUI
+From Hello World! Computer Programming for Kids and Beginners by Carter and Warren Sande.
+"""
 
 import random
 import easygui
