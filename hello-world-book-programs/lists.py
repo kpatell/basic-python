@@ -40,10 +40,6 @@ print(scrambled_letters)
 scrambled_letters.reverse()
 print(scrambled_letters)
 
-scrambled_letters = ['d', 'a', 'e', 'c', 'b']
-scrambled_letters.sort(reverse=True)
-print(scrambled_letters)
-
 # 2d lists
 print()
 joe_marks = [55, 63, 77, 81] # math, science, reading, spelling
