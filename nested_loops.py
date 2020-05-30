@@ -1,8 +1,9 @@
 # Krishan Patel
-# Copyright Warren and Carter Sande, 2009-2013
 
 """Chaper 11: Nested Loops
-From Hello World! Computer Programming for Kids and Beginners"""
+From Hello World! Computer Programming for Kids and Beginners
+Copyright Warren and Carter Sande, 2009-2013
+"""
 
 # import time
 
