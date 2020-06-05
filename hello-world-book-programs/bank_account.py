@@ -15,8 +15,8 @@ class BankAccount:
         self.balance = 0.0
 
     def __str__(self):
-        bank_account_string = self.name + "\nAccount Number: %s \nBalance: %s" % (self.account_number, round(self.balance, 2))
-        return bank_account_string
+        return self.name + "\nAccount Number: %s \nBalance: %s" % \
+            (self.account_number, round(self.balance, 2))
 
     def display_balance(self):
         """Displays the balance of the bank account"""
