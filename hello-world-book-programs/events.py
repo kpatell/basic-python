@@ -77,7 +77,7 @@ Copyright Warren and Carter Sande, 2009-2013
 #         newpos = self.rect.move(self.speed)
 #         self.rect = newpos
 
-# my_ball = Ball('images/beach_ball.png', [10, 0], [20, 20])
+# my_ball = Ball('hello-world-book-programs/images/beach_ball.png', [10, 0], [20, 20])
 #
 # RUNNING = True
 # while RUNNING:
@@ -129,7 +129,7 @@ Copyright Warren and Carter Sande, 2009-2013
 #         newpos = self.rect.move(self.speed)
 #         self.rect = newpos
 
-# my_ball = Ball('images/beach_ball.png', [10, 0], [20, 20])
+# my_ball = Ball('hello-world-book-programs/images/beach_ball.png', [10, 0], [20, 20])
 # pygame.time.set_timer(pygame.USEREVENT, 1000)
 # DIRECTION = 1
 
@@ -196,7 +196,7 @@ Copyright Warren and Carter Sande, 2009-2013
 # clock = pygame.time.Clock()
 # ball_speed = [10, 5]
 
-# my_ball = Ball('images/wackyball.bmp', ball_speed, [50, 50])
+# my_ball = Ball('hello-world-book-programs/images/wackyball.bmp', ball_speed, [50, 50])
 # ballGroup = pygame.sprite.Group(my_ball)
 # paddle = Paddle([270, 400])
 
@@ -267,7 +267,7 @@ pygame.init()
 # Initializes everything
 screen = pygame.display.set_mode([640, 480])
 clock = pygame.time.Clock()
-myBall = Ball('images/wackyball.bmp', [10, 5], [50, 50])
+myBall = Ball('hello-world-book-programs/images/wackyball.bmp', [10, 5], [50, 50])
 ballGroup = pygame.sprite.Group(myBall)
 paddle = Paddle([270, 400])
 LIVES = 3

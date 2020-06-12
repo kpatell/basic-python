@@ -13,7 +13,7 @@ import pygame
 
 def load_images():
     """Loads the images needed"""
-    folder = 'images/'
+    folder = 'hello-world-book-programs/images/'
     image_names = []
 
     for filename in os.listdir(folder):
@@ -45,7 +45,7 @@ skier_images = sort_images()
 """
 class GetImages(object):
     def __init__(self):
-        self.folder = 'images/'
+        self.folder = 'hello-world-book-programs/images/'
         self.image_order = ["skier_down.png", "skier_right1.png",
                             "skier_right2.png", "skier_left2.png", "skier_left1.png"]
         self.order_map = {}
