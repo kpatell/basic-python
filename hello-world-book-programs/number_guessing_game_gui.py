@@ -29,3 +29,4 @@ if GUESS == secret:
     easygui.msgbox("Avast! Ye got it! Found my secret, ye did!")
 else:
     easygui.msgbox("No more guesses! Better luck next time, matey!")
+    easygui.msgbox("The secret was " + str(secret))

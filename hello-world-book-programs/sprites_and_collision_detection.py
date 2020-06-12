@@ -52,7 +52,7 @@ def animate(balls):
 size = width, height = 640, 480
 screen = pygame.display.set_mode(size)
 screen.fill([255, 255, 255])
-IMG_FILE = "images/beach_ball.png"
+IMG_FILE = "hello-world-book-programs/images/beach_ball.png"
 clock = pygame.time.Clock()  # Creates instance of `Clock`
 group = pygame.sprite.Group()
 
