@@ -21,7 +21,7 @@ class Ball(pygame.sprite.Sprite):
 
     def move(self):
         """Moves the ball"""
-        global points, score_text
+        global POINTS, SCORE_TEXT
         self.rect = self.rect.move(self.speed)
         if self.rect.left < 0 or self.rect.right > screen.get_width():
             self.speed[0] = -self.speed[0]
@@ -31,8 +31,8 @@ class Ball(pygame.sprite.Sprite):
 
         if self.rect.top <= 0:
             self.speed[1] = -self.speed[1]
-            points = points + 1
-            score_text = font.render(str(points), 1, (0, 0, 0))
+            POINTS = POINTS + 1
+            SCORE_TEXT = font.render(str(POINTS), 1, (0, 0, 0))
             get_point.play()  # Plays sound when the ball hits the top (player gets a point)
 
 
