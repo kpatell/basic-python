@@ -27,7 +27,7 @@ class Ball:
         if self.direction == "down":
             self.direction = "up"
 
-myBall = Ball("red", "small", "down")
-print(myBall)
-myBall.bounce()
-print(myBall)
+MY_BALL = Ball("red", "small", "down")
+print(MY_BALL)
+MY_BALL.bounce()
+print(MY_BALL)
